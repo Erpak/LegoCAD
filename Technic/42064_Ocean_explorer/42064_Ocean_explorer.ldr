@@ -1,9 +1,35 @@
 0 FILE main.ldr
+1 7 30 -24 40 0 -1 0 0 0 1 -1 0 0 32291.dat
+1 18 10 -44 50 0 -1 0 -1 0 0 0 0 -1 32556.dat
+0 STEP
 0 Technic Ocean Explorer - 42064
 0 Name: Technic 42064 Ocean Explorer
 0 Author: LDraw
 0 !LICENSE See Github project license at  : https://github.com/Erpak/LegoCAD
+1 4 30 -24 50 0 -1 0 0 0 1 -1 0 0 32062.dat
+1 7 10 -34 30 0 -1 0 -1 0 0 0 0 -1 3673.dat
 0 STEP
+1 4 -30 -44 50 0 0 -1 0 1 0 1 0 0 32316.dat
+0 STEP
+1 7 -90 -24 40 0 1 0 0 0 1 1 0 0 32291.dat
+1 7 -70 -34 30 0 1 0 -1 0 0 0 0 1 3673.dat
+1 18 -70 -44 50 0 1 0 -1 0 0 0 0 1 32556.dat
+1 4 -90 -24 50 0 1 0 0 0 1 1 0 0 32062.dat
+0 STEP
+1 4 -30 -44 30 0 0 -1 0 1 0 1 0 0 32316.dat
+1 0 -50 -34 30 0 0 -1 -1 0 0 0 1 0 3673.dat
+1 0 -10 -34 30 0 0 -1 -1 0 0 0 1 0 3673.dat
+1 7 -50 -24 30 0 0 -1 0 -1 0 -1 0 0 18654.dat
+1 7 -10 -24 30 0 0 -1 0 -1 0 -1 0 0 18654.dat
+0 STEP
+1 0 -50 -54 50 0 0 -1 -1 0 0 0 1 0 3673.dat
+1 0 -10 -54 50 0 0 -1 -1 0 0 0 1 0 3673.dat
+1 7 -30 -64 50 0 0 1 1 0 0 0 1 0 15100.dat
+0 STEP
+1 23 -90 -24 60 1 0 0 0 1 0 0 0 1 11946.dat
+1 23 30 -24 60 1 0 0 0 1 0 0 0 1 11947.dat
+0 STEP
+0 NOFILE
 0 FILE submarine.ldr
 0 Submarine of Ocean Explorer set
 0 Name: Submarine
@@ -110,7 +136,12 @@
 1 7 9.993 -79 20 0 1 0 1 0 0.017 0.017 0 -1 2825.dat
 1 7 10 -78.66 0 -1 0 0 0 1 0 0 0 -1 4274.dat
 0 STEP
-1 0 -22 -179.34 0 0 -1 0 -1 0 0 0 0 -1 76384.dat
+0 !LEOCAD SYNTH BEGIN
+0 !LEOCAD SYNTH CONTROL_POINT -100 0 0 1 0 0 0 1 0 0 0 1 12
+0 !LEOCAD SYNTH CONTROL_POINT 92.0041 0 0 1 0 0 0 1 0 0 0 1 0.1
+0 !LEOCAD SYNTH CONTROL_POINT 100 0 0 1 0 0 0 1 0 0 0 1 12
+1 0 -22 -179.34 0 0 0 -1 -1 0 0 0 1 0 76384.dat
+0 !LEOCAD SYNTH END
 1 15 -22 -79.34 0 0 -1 0 -1 0 0 0 0 -1 15470.dat
 0 STEP
 1 6 40 -20.033 -19.999 0 0.707 -0.707 1 0 0 0 -0.707 -0.707 24316.dat
@@ -135,6 +166,7 @@
 1 0 0.004 -22.736 -139.994 0 0 -1 0 1 0 1 0 0 55529.dat
 0 STEP
 1 39 -9.996 -22.736 -139.994 -1 0 0 0 0.707 0.707 0 0.707 -0.707 18990.dat
+0 NOFILE
 0 FILE helicopter.ldr
 0 Helicopter of Ocean Explorer set
 0 Name: Helicopter
@@ -263,3 +295,4 @@
 1 7 34.641 -86 -40 -0.5 -0.866 0 0 0 1 -0.866 0.5 0 99012.dat
 1 7 -34.641 -86 -40 -0.5 0.866 0 0 0 1 0.866 0.5 0 99012.dat
 1 7 0 -86 20 1 0 0 0 0 1 0 -1 0 99012.dat
+0 NOFILE
