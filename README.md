@@ -1,9 +1,10 @@
 # LegoCAD
-Official Lego sets and personal creations made with LDCad and/or LeoCad
+Official Lego sets and personal creations made with LDCAD, LeoCAD and/or Bricklink Studio
 
 ## Links to used softwares
 - [LDCad](http://www.melkert.net/LDCad)
 - [LeoCad](https://www.leocad.org/)
+- [Bricklink Studio](https://www.bricklink.com/v3/studio/download.page)
 
 ## License
 
